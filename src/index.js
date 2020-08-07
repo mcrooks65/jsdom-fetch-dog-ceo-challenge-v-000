@@ -32,12 +32,12 @@ function loadBreedOptions() {
       addBreedSelectListener();
     });
 }
-
-function updateBreedList(breeds) {
-  let ul = document.querySelector('#dog-breeds');
-  removeChildren(ul);
-  breeds.forEach(breed => addBreed(breed));
-}
+//
+// function updateBreedList(breeds) {
+//   let ul = document.querySelector('#dog-breeds');
+//   removeChildren(ul);
+//   breeds.forEach(breed => addBreed(breed));
+// }
 
 function removeChildren(element) {
   let child = element.lastElementChild;
