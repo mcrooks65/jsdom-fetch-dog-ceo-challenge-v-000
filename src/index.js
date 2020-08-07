@@ -32,7 +32,7 @@ function loadBreedOptions() {
       addBreedSelectListener();
     });
 }
-// 
+//
 // function updateBreedList(breeds) {
 //   let ul = document.querySelector('#dog-breeds');
 //   removeChildren(ul);
